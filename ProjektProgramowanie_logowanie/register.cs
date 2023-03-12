@@ -21,7 +21,7 @@ namespace ProjektProgramowanie_logowanie
 
 
 
-       // private SqlConnection sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
+        private SqlConnection sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
         
         
         
@@ -52,7 +52,7 @@ namespace ProjektProgramowanie_logowanie
 
             try
             {
-                SqlConnection sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
+                //SqlConnection sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
 
 
                 sqlcon.Open();
@@ -79,6 +79,10 @@ namespace ProjektProgramowanie_logowanie
                         {
                             MessageBox.Show("Zarejestrowano pomyślnie", "Zarejestrowano", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
+                        else
+                        {
+                            MessageBox.Show("coś poszło nie halo");
+                        }
                     }
                     else
                     {
@@ -92,7 +96,7 @@ namespace ProjektProgramowanie_logowanie
             }
             catch
             {
-                MessageBox.Show("An error occurred while connecting to the database");
+                MessageBox.Show("Brak połączenia z bazą danych. Spróbuj ponownie później.");
             }
 
 
