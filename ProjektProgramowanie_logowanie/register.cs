@@ -18,8 +18,8 @@ namespace projektProgramowanie_logowanie
             InitializeComponent();
         }
 
-        private SqlConnection sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
-
+        SqlConnection sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
+        
         private bool IsValidEmail(string email)
         {
             var trimmedEmail = email.Trim();
@@ -52,11 +52,10 @@ namespace projektProgramowanie_logowanie
             string password = newpassword.Text;
             string email = newemail.Text;
             string number = phonenmbr.Text;
-            try
-            {
 
 
-                sqlcon.Open();
+
+                sqlcon.Open();//
                 SqlCommand command = sqlcon.CreateCommand();
                 command.CommandText = "Select login from Users where login=@Login";
                 command.Parameters.AddWithValue("@Login", login);
@@ -118,11 +117,7 @@ namespace projektProgramowanie_logowanie
                     MessageBox.Show("Podany login istnieje.");
                 }
                 
-            }
-            catch
-            {
-                MessageBox.Show("Brak połączenia z bazą danych. Spróbuj ponownie później.");
-            }
+
           
         }
 
