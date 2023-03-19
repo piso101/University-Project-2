@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjektProgramowanie2_zamowienie.Properties
+namespace ProjektProgramowanie_MainPage.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace ProjektProgramowanie2_zamowienie.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ProjektProgramowanie2_zamowienie.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ProjektProgramowanie_MainPage.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

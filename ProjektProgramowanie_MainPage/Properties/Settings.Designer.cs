@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjektProgramowanie2_hub.Properties
+namespace ProjektProgramowanie_MainPage.Properties
 {
 
 

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProjektProgramowanie2_zamowienie
+namespace ProjektProgramowanie_MainPage
 {
     public partial class Form1 : Form
     {

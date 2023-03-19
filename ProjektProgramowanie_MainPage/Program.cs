@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProjektProgramowanie2_hub
+namespace ProjektProgramowanie_MainPage
 {
     internal static class Program
     {

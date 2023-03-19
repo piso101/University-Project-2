@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjektProgramowanie2_zamowienie.Properties {
+namespace ProjektProgramowanie2Dentysta.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

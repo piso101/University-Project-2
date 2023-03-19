@@ -1,4 +1,4 @@
-﻿namespace ProjektProgramowanie2_zamowienie
+﻿namespace ProjektProgramowanie_MainPage
 {
     partial class Form1
     {

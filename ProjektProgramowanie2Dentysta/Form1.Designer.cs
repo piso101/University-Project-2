@@ -1,4 +1,4 @@
-﻿namespace ProjektProgramowanie2_hub
+﻿namespace ProjektProgramowanie2Dentysta
 {
     partial class Form1
     {

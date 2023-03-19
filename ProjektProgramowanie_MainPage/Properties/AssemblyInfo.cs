@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Ogólne informacje o zestawie są kontrolowane poprzez następujący 
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
-[assembly: AssemblyTitle("ProjektProgramowanie2_zamowienie")]
+[assembly: AssemblyTitle("ProjektProgramowanie_MainPage")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ProjektProgramowanie2_zamowienie")]
+[assembly: AssemblyProduct("ProjektProgramowanie_MainPage")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Następujący identyfikator GUID jest identyfikatorem biblioteki typów w przypadku udostępnienia tego projektu w modelu COM
-[assembly: Guid("f1f0c87d-ef02-49c8-8c8e-55c26b9ce3e5")]
+[assembly: Guid("6217b36b-6da8-42dc-b02a-a8546ca7ba26")]
 
 // Informacje o wersji zestawu zawierają następujące cztery wartości:
 //

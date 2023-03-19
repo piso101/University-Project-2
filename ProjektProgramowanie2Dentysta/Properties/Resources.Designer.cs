@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjektProgramowanie2_hub.Properties
+namespace ProjektProgramowanie2Dentysta.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace ProjektProgramowanie2_hub.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ProjektProgramowanie2_hub.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ProjektProgramowanie2Dentysta.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

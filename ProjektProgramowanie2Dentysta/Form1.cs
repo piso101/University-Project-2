@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProjektProgramowanie2_hub
+namespace ProjektProgramowanie2Dentysta
 {
     public partial class Form1 : Form
     {
