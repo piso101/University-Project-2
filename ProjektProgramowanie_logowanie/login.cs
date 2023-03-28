@@ -23,6 +23,7 @@ namespace projektProgramowanie_logowanie
         SqlConnection sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
         SqlCommand cmd;
         SqlDataReader dr;
+        public string booklogin;
 
         private void registerButton_Click(object sender, EventArgs e)
         {
@@ -62,12 +63,14 @@ namespace projektProgramowanie_logowanie
 
                     projektProgramowanie_logowanie.Form1 f1 = new projektProgramowanie_logowanie.Form1();
                     ProjektProgramowanie_MainPage.Form1 f2 = new ProjektProgramowanie_MainPage.Form1();
+                    ProjektProgramowanie2Dentysta.Form2 f3 = new ProjektProgramowanie2Dentysta.Form2();
+                    f2.Userd_id(logint.ToString(), passwordt.ToString());
                     f1.Hide();
                     f2.Show();
 
 
 
-                }
+				}
                 else
                 {
                     MessageBox.Show("nieprawidłowy login lub hasło", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
