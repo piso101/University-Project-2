@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +20,7 @@ namespace projektProgramowanie_logowanie
             InitializeComponent();
         }
 
-        SqlConnection sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
+        SqlConnection sqlcon = new SqlConnection(Properties.Settings.Default.StoMaToLogiczneConnectionString);
         SqlCommand cmd;
         SqlDataReader dr;
         public string booklogin;

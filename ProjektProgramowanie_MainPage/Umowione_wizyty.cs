@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,7 +15,7 @@ namespace ProjektProgramowanie_MainPage
 	{
 		public static int user_id;
 		
-		SqlConnection cn = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
+		SqlConnection cn = new SqlConnection(Properties.Settings.Default.StoMaToLogiczneConnectionString);
 		public Umowione_wizyty()
 		{
 			InitializeComponent();

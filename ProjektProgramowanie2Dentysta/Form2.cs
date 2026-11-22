@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -25,7 +25,7 @@ namespace ProjektProgramowanie2Dentysta
 		static bool time_bool = false;
 		static bool who_bool = false;
 		static bool msg_bool = false;
-		SqlConnection cn = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
+		SqlConnection cn = new SqlConnection(Properties.Settings.Default.StoMaToLogiczneConnectionString);
 		public Form2()
         {
             InitializeComponent();

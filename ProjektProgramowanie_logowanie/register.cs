@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,7 +18,7 @@ namespace projektProgramowanie_logowanie
             InitializeComponent();
         }
 
-        SqlConnection sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=StoMaToLogiczne;Integrated Security=True");
+        SqlConnection sqlcon = new SqlConnection(Properties.Settings.Default.StoMaToLogiczneConnectionString);
         
         private bool IsValidEmail(string email)
         {
